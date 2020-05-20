@@ -1,0 +1,14 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "sqltools.connections": [
+        {
+            "database": "${workspaceFolder}\\db.sqlite3",
+            "dialect": "SQLite",
+            "name": "Training"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
